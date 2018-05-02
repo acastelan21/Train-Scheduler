@@ -1,0 +1,43 @@
+body {
+   
+    font-size: 18px;
+}
+
+#header {
+    width:88.33333333333%;
+    border: 2px solid red;
+    border-radius: 5px;
+    text-align: center;
+    margin: auto;
+    padding:20px;
+}
+
+
+h1 {
+    
+    font-size: 24px;
+    font-weight: 900;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+
+form {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+#current-train-schedule {
+    border: 2px solid red;
+    border-radius: 5px;
+}
+#addTrainHeader {
+    border: 2px solid red;
+    border-radius: 5px;
+}
