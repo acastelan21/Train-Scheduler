@@ -1,6 +1,7 @@
 body {
    background: rgb(232, 221, 203, .38);
-    font-size: 16xpx;
+    font-size: 16px;
+    font-family: "Bree Serif", serif;
 }
 
 
@@ -8,6 +9,7 @@ h1 {
     
     font-size: 24px;
     font-weight: 900;
+   
 }
 
 h2 {
@@ -32,9 +34,11 @@ form {
 }
 
 .jumbotron {
-    background-image: url(../images/train2.jpeg);
+    background-image: url(../images/train.jpeg);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-position: center;
+    color:black;
+    opacity: .9;
    
 }
 
@@ -67,4 +71,10 @@ margin-bottom: 5px;
     margin-left: 40%;
     margin-right: 40%;
    
+}
+h1.display-4 {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+p.lead {
+    background-color: rgba(255, 255, 255, 0.6);
 }
