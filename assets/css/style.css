@@ -1,6 +1,6 @@
 body {
-   
-    font-size: 18px;
+   background: rgb(232, 221, 203, .38);
+    font-size: 16xpx;
 }
 
 
@@ -16,19 +16,55 @@ h2 {
 }
 
 table {
-    border: 2px solid red;
+    border: 2px solid gray;
     border-radius: 5px;
+    color: #408F60;
 }
 
 form {
-    border: 2px solid red;
-    border-radius: 5px;
+    border: 2px solid gray;
+   
+    color: #408F60;
 }
-#current-train-schedule {
-    border: 2px solid red;
-    border-radius: 5px;
-}
+
 #addTrainHeader {
-    border: 2px solid red;
-    border-radius: 5px;
+    padding:20px;
+}
+
+.jumbotron {
+    background-image: url(../images/train2.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+#nameFields {
+    
+    font-weight: 700;
+}
+
+#current-train-schedule {
+background-color: #CDE6BD;
+color: black;
+font-weight: 800;
+font-size: 18px;
+padding: 20px;
+}
+
+#addTrainHeader {
+background-color: #CDE6BD;
+color: black;
+font-weight: 800;
+font-size: 18px;
+padding: 20px;
+margin-bottom: 5px;
+}
+
+
+.btn{
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 40%;
+    margin-right: 40%;
+   
 }
